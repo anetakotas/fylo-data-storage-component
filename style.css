@@ -22,7 +22,7 @@ body {
     background-color: hsl(229, 57%, 11%);
     background-image: url("../images/bg-desktop.png");
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: bottom;
 }
 
 main {
@@ -207,12 +207,13 @@ main {
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 992px) {
 
     body {
         background-image: url("../images/bg-mobile.png");
         background-position: center;
         overflow: hidden;
+        background-size: cover;
     }
 
     .content-wrapper {
